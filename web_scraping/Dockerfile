@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r requirements.txt
+RUN pip install requests beautifulsoup4 lxml
 
 CMD ["python", "scraper.py"]
