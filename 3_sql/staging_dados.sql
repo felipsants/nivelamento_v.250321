@@ -1,3 +1,5 @@
+-- Se estiver rodando PostgreSQL via Docker e montou o volume corretamente, use:
+
 COPY staging_demonstracoes("DATA", "REG_ANS", "CD_CONTA_CONTABIL", "DESCRICAO", "VL_SALDO_INICIAL", "VL_SALDO_FINAL")
 FROM '/dados_csv/1T2023.csv'
 DELIMITER ';'
@@ -43,3 +45,6 @@ FROM '/dados_csv/Relatorio_cadop.csv'
 DELIMITER ';'
 CSV HEADER;
 
+-- Se estiver usando PostgreSQL localmente (fora de Docker), prefira:
+-- \COPY (roda no cliente psql, e precisa ser executado no terminal psql)
+-- \COPY staging_demonstracoes(...) FROM 'caminho/para/o/csv.csv' DELIMITER ';' CSV HEADER;
