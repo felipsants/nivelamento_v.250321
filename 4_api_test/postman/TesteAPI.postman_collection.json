@@ -1,0 +1,201 @@
+{
+  "info": {
+    "_postman_id": "e6c7aadd-3e5a-4c20-92a1-f2813d158a27",
+    "name": "Teste API - Busca por Nome",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Buscar - Amil Assistência Médica Internacional S.A.",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/search?q=Amil Assistência Médica Internacional S.A.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "Amil Assistência Médica Internacional S.A."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar - Notre Dame Intermédica Saúde S.A.",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/search?q=Notre Dame Intermédica Saúde S.A.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "Notre Dame Intermédica Saúde S.A."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar - Hapvida Assistência Médica Ltda.",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/search?q=HAPVIDA ASSISTENCIA MEDICA S.A.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "HAPVIDA ASSISTENCIA MEDICA S.A."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar - Bradesco Saúde S.A.",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/search?q=BRADESCO SAÚDE S.A.",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "BRADESCO SAÚDE S.A."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar - Unimed do Brasil Confederação Nacional das Cooperativas Médicas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/search?q=UNIMED DO BRASIL - CONF. NACIONAL DAS COOPERATIVAS MÉDICAS",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "UNIMED DO BRASIL - CONF. NACIONAL DAS COOPERATIVAS MÉDICAS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar - Unimed de São José do Rio Pardo",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/search?q=UNIMED DE SAO JOSÉ DO RIO PARDO-COOP. DE TRAB. MÉDICO",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "UNIMED DE SAO JOSÉ DO RIO PARDO-COOP. DE TRAB. MÉDICO"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar - Prevent Senior Private Operadora de Saúde Ltda.",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/search?q=PREVENT SENIOR PRIVATE OPERADORA DE SAÚDE LTDA",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "PREVENT SENIOR PRIVATE OPERADORA DE SAÚDE LTDA"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar - Sul América Companhia de Seguro Saúde",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/search?q=SUL AMERICA COMPANHIA DE SEGURO SAÚDE",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "search"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "SUL AMERICA COMPANHIA DE SEGURO SAÚDE"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
