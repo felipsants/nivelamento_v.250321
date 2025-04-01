@@ -5,6 +5,8 @@ url = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedad
 re = requests.get(url)
 
 OUTPUT_DIR = "output"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
 PDF_TITLES = ["Anexo I.", "Anexo II."]
 PDF_FILES = []
 
