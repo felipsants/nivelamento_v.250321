@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 OPERADORAS = []
-with open('C:/Users/rebek/Desktop/felipé/nivelamento_v.250321/4_api_test/Relatorio_cadop.csv', newline='', encoding='utf-8') as csvfile:
+with open('C:/Users/rebek/Desktop/felipé/nivelamento_v.250321/4_api_test/backend/Relatorio_cadop.csv', newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile, delimiter=';')
     for row in reader:
         OPERADORAS.append(row)
