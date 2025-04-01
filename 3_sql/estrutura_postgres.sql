@@ -37,7 +37,7 @@ CREATE TABLE staging_4t2023 (
     "DESCRICAO" TEXT,
     "VL_SALDO_INICIAL" TEXT, 
     "VL_SALDO_FINAL" TEXT
-)
+);
 
 CREATE TABLE demonstracoes_contabeis(
     "DATA" DATE,

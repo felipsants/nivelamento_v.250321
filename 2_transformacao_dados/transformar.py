@@ -61,7 +61,7 @@ dados_pdf = extrair_dados_pdf(pdf_path)
 nome_csv = "Rol_de_Procedimentos.csv"
 salvar_csv(dados_pdf, nome_csv)
 
-nome_zip = "Rol_de_Procedimentos.zip"
+nome_zip = "Teste_Carlos_Felipe.zip"
 zipar(nome_csv, nome_zip, script_dir) 
 
 # Remove os arquivos após a compactação
