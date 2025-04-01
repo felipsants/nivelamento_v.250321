@@ -101,16 +101,5 @@ A coleção `TesteAPI.postman_collection.json` pode ser importada no [Postman](h
 
 ## 👤 Autor
 
-Seu Nome  
-[Seu Email]  
-[GitHub ou outro link, se aplicável]
-
----
-
-## 📝 Licença
-
-Este projeto está sob a licença [Sua Licença, se aplicável].
-
----
-
-**CONFIDENCIAL:** Este documento é confidencial e não deve ser divulgado ou copiado sem autorização expressa do autor.
+Carlos Felipe dos Santos Pereira  
+cs134922@gmail.com
