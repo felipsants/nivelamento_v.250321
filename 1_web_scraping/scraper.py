@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 url = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos"
 re = requests.get(url)
 
+OUTPUT_DIR = "output"
 PDF_TITLES = ["Anexo I.", "Anexo II."]
 PDF_FILES = []
 
@@ -33,7 +34,7 @@ if response.status_code == 200:
             filename = full_url.split("/")[-1]  # Nome do arquivo real
             baixar_pdf(full_url, filename)
     
-    zip_filename = "anexos.zip"
+    zip_filename = os.path.join(OUTPUT_DIR,"anexos.zip")
     with zipfile.ZipFile(zip_filename, "w") as zipf:
         for pdf in PDF_FILES:
             zipf.write(pdf, os.path.basename(pdf))

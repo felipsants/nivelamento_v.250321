@@ -73,7 +73,7 @@ mkdir output
 Execute o container e monte o diretório de saída:
 
 ```bash
-docker run --rm -v "$(pwd)/output:/output" webscraper
+docker run --rm -v "%cd%/output:/app/output" webscraper
 ```
 
 #### Resultado via Docker
