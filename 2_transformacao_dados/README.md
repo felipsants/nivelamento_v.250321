@@ -59,7 +59,7 @@ Certifique-se de que o **PDF do Anexo I** esteja disponível no caminho especifi
 Executar o arquivo chamado: `transformar.py`
 
 ```bash
-python transformador.py
+python transformar.py
 ```
 
 ---
