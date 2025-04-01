@@ -3,7 +3,7 @@ import pandas as pd
 import zipfile
 import os
 
-zip_path = "C:/Users/cs134/OneDrive/Área de Trabalho/processo_intuitive/web_scraping/anexos.zip"
+zip_path = "C:/Users/rebek/Desktop/felipé/nivelamento_v.250321/1_web_scraping/anexos.zip"
 pdf_nome = "Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf"
 script_dir = os.path.dirname(os.path.abspath(__file__))
 pdf_path = os.path.join(script_dir, pdf_nome)
